@@ -10,7 +10,7 @@ import kotlinx.android.synthetic.main.activity_remote_tv.*
 class RemoteTV : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity.remote_tv)
 
         power.setOnClickListener(){
             intent = Intent(this,MainActivity::class.java)
