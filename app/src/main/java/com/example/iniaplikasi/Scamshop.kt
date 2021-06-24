@@ -12,7 +12,7 @@ class Scamshop : AppCompatActivity() {
     private lateinit var layoutManager: RecyclerView.LayoutManager
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_scamshop)
         ScamList.add(
             ScamModel(
                 "Bocah Epep",
