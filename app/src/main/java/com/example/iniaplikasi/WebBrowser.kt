@@ -15,7 +15,7 @@ import kotlinx.android.synthetic.main.activity_web_browser.*
 class WebBrowser : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_web_browser)
         webview.webViewClient = CustomWebViewClient(this)
         webview.loadUrl("https://www.google.com/")
     }
