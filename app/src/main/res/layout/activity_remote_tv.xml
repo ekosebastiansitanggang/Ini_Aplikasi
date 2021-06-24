@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".RemoteTV">
+
+    <Button
+        android:id="@+id/power"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="ON/OFF"
+        android:textColor="@color/textColor" />
+    <ToggleButton
+        android:id="@+id/cornhub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Hornpub"
+        android:textColor="@color/textColor" />
+
+    <Button
+        android:id="@+id/volumeup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/power"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="50dp"
+        android:text="Volume Up"
+        android:textColor="@color/textColor" />
+    <Button
+        android:id="@+id/volumedown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/power"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="50dp"
+        android:text="Volume Down"
+        android:textColor="@color/textColor" />
+    <Button
+        android:id="@+id/channelup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cornhub"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="50dp"
+        android:text="Channel Up"
+        android:textColor="@color/textColor" />
+    <Button
+        android:id="@+id/channeldown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cornhub"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="90dp"
+        android:layout_marginRight="50dp"
+        android:text="Channel Down"
+        android:textColor="@color/textColor" />
+    <Button
+        android:id="@+id/uparrow"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/enterbutton"
+        android:text="Up"
+        android:textColor="@color/textColor"
+        />
+    <Button
+        android:id="@+id/leftarrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="70dp"
+        android:text="Left"
+        android:textColor="@color/textColor"
+        />
+    <Button
+        android:id="@+id/rightarrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="70dp"
+        android:text="Right"
+        android:textColor="@color/textColor"
+        />
+    <Button
+        android:id="@+id/enterbutton"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerInParent="true"
+        android:text="enter"
+        android:textColor="@color/textColor"
+        />
+    <Button
+        android:id="@+id/bottomarrow"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/enterbutton"
+        android:text="Down"
+        android:textColor="@color/textColor"
+        />
+    <Button
+        android:id="@+id/playpause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginBottom="50dp"
+        android:text="Play"
+        android:textColor="@color/textColor"
+        />
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="50dp"
+        android:text="Stop"
+        android:textColor="@color/textColor"
+        />
+    <Button
+        android:id="@+id/slowdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/playpause"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="50dp"
+        android:text="Slow Down"
+        android:textColor="@color/textColor"
+        />
+    <Button
+        android:id="@+id/skipleft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/playpause"
+        android:layout_marginBottom="90dp"
+        android:layout_marginLeft="50dp"
+        android:text="Skip Left"
+        android:textColor="@color/textColor"
+        />
+    <Button
+        android:id="@+id/fastforward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/stop"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginRight="50dp"
+        android:text="Fast Forward"
+        android:textColor="@color/textColor"
+        />
+    <Button
+        android:id="@+id/skipright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/stop"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="90dp"
+        android:layout_marginRight="50dp"
+        android:text="Skip Right"
+        android:textColor="@color/textColor"
+        />
+
+</RelativeLayout>
